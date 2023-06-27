@@ -28,3 +28,27 @@ Connecting to:          mongodb://127.0.0.1:27017/?directConnection=true&serverS
 Using MongoDB:          6.0.6
 Using Mongosh:          1.10.1
 ```
+
+5. 确认 MongoDB 实例正在运行
+
+```sh
+test> db.runCommand({ hello: 1 })
+
+{
+  isWritablePrimary: true,
+  topologyVersion: {
+    processId: ObjectId("649b02c8655847837df881de"),
+    counter: Long("0")
+  },
+  maxBsonObjectSize: 16777216,
+  maxMessageSizeBytes: 48000000,
+  maxWriteBatchSize: 100000,
+  localTime: ISODate("2023-06-27T16:01:20.639Z"),
+  logicalSessionTimeoutMinutes: 30,
+  connectionId: 3,
+  minWireVersion: 0,
+  maxWireVersion: 17,
+  readOnly: false,
+  ok: 1
+}
+```
