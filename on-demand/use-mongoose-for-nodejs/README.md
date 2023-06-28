@@ -35,3 +35,5 @@ npm i
 node src/connect.js
 ```
 
+4. 定义模式和模型（[查看源代码](./src/movie-model.js)）
+
