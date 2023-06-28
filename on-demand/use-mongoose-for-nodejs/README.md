@@ -106,3 +106,15 @@ node src/update-many.js
 ```
 
 ### 3.8. 删除文档
+
+删除一个文档（[查看源代码](./src/delete-one.js)）：
+
+```sh
+node src/delete-one.js
+```
+
+删除多个文档（[查看源代码](./src/delete-many.js)）：
+
+```sh
+node src/delete-many.js
+```
