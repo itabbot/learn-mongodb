@@ -42,5 +42,7 @@ node src/connect.js
 ```sh
 # 插入一个文档
 node src/insert.js
+# 插入一个文档（方法 2）
+node src/insert2.js
 ```
 
