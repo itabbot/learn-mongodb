@@ -82,3 +82,9 @@ node src/find-one.js
 ```sh
 node src/find.js
 ```
+
+聚合查找（[查看源代码](./src/aggregate.js)）：
+
+```sh
+node src/aggregate.js
+```
