@@ -1,0 +1,9 @@
+{
+  "name": "use-mongoose-for-nodejs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongoose": "^7.3.1"
+  }
+}

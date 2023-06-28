@@ -17,3 +17,15 @@ MongoDB 官方提供了标准的 Node.js 驱动程序，但一些开发人员喜
 
 ## 3. 尝试
 
+1. 在 Docker 中启动 MongoDB 并映射端口到本地主机：
+
+```sh
+docker run --name mongo -d -p 27017:27017 mongodb/mongodb-community-server:latest
+```
+
+2. 初始化环境
+
+```sh
+npm i
+```
+
