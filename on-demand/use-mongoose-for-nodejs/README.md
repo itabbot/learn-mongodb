@@ -48,3 +48,9 @@ node src/insert2.js
 node src/insert-many.js
 ```
 
+6. 查找文档（[查看源代码](./src/find-one.js)）
+
+```sh
+# 查找一个文档
+node src/find-one.js
+```
