@@ -1,2 +1,19 @@
 # 使用 Node.js 的 ODM 工具 Mongoose<!-- omit in toc -->
 
+- [1. 相关资源](#1-相关资源)
+- [2. 场景](#2-场景)
+- [3. 尝试](#3-尝试)
+
+## 1. 相关资源
+
+[官方网站](https://mongoosejs.com) | [官方文档](https://mongoosejs.com/docs) | [GitHub](https://github.com/Automattic/mongoose)  
+[MongoDB Mongoose 入门指引](https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose) | [MongoDB Node.js 驱动](https://www.mongodb.com/docs/drivers/node/current/)
+
+## 2. 场景
+
+MongoDB 官方提供了标准的 Node.js 驱动程序，但一些开发人员喜欢使用一些对象数据建模（ODM）或对象关系映射（ORM）工具来获得更好的体验。Mongoose 就是 MongoDB 的 ODM（对象数据建模）第三方库。它可以帮助简化对 MongoDB 的操作，并更加容易地进行数据建模、模式实施、类型转换、模型验证、查询构建、业务逻辑挂钩等等操作。
+
+默认情况下，MongoDB 具有灵活的数据模型，这使得 MongoDB 数据库在未来非常容易更改和更新，但许多开发人员习惯于采用严格的模式。Mongoose 从一开始就强制采用半刚性模式，使用 Mongoose，开发人员必须定义模式（Schema）和模型（Model）。Mongoose 模式直接映射到 MongoDB 集合，通过模式，我们定义集合文档的结构，包括每个字段及其数据类型。模型引用指定的模式并将其应用到其集合中的每个文档，负责所有文档交互，包括增删改查等等。
+
+## 3. 尝试
+
