@@ -37,12 +37,14 @@ node src/connect.js
 
 4. 定义模式和模型（[查看源代码](./src/movie-model.js)）
 
-5. 插入文档（[查看源代码](./src/insert.js) | [查看源代码](./src/insert2.js)）
+5. 插入文档（[查看源代码](./src/insert.js) | [查看源代码](./src/insert2.js) | [查看源代码](./src/insert-many.js)）
 
 ```sh
 # 插入一个文档
 node src/insert.js
 # 插入一个文档（方法 2）
 node src/insert2.js
+# 插入多个文档
+node src/insert-many.js
 ```
 
