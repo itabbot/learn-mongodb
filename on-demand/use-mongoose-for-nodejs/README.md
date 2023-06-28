@@ -48,9 +48,11 @@ node src/insert2.js
 node src/insert-many.js
 ```
 
-6. 查找文档（[查看源代码](./src/find-one.js)）
+1. 查找文档（[查看源代码](./src/find-one.js) | [查看源代码](./src/find.js)）
 
 ```sh
 # 查找一个文档
 node src/find-one.js
+# 查找多个文档（按条件筛选、指定字段）
+node src/find.js
 ```
