@@ -3,6 +3,12 @@
 - [1. 相关资源](#1-相关资源)
 - [2. 场景](#2-场景)
 - [3. 尝试](#3-尝试)
+  - [3.1. 启动 MongoDB](#31-启动-mongodb)
+  - [3.2. 初始化环境](#32-初始化环境)
+  - [3.3. 连接 MongoDB](#33-连接-mongodb)
+  - [3.4. 定义模式和模型](#34-定义模式和模型)
+  - [3.5. 插入文档](#35-插入文档)
+  - [3.6. 查找文档](#36-查找文档)
 
 ## 1. 相关资源
 
@@ -17,42 +23,62 @@ MongoDB 官方提供了标准的 Node.js 驱动程序，但一些开发人员喜
 
 ## 3. 尝试
 
-1. 在 Docker 中启动 MongoDB 并映射端口到本地主机：
+### 3.1. 启动 MongoDB
+
+在 Docker 中启动 MongoDB 并映射端口到本地主机：
 
 ```sh
 docker run --name mongo -d -p 27017:27017 mongodb/mongodb-community-server:latest
 ```
 
-2. 初始化环境
+### 3.2. 初始化环境
 
 ```sh
 npm i
 ```
 
-3. 连接 MongoDB（[查看源代码](./src/connect.js)）
+### 3.3. 连接 MongoDB
+
+[查看源代码](./src/connect.js)
 
 ```sh
 node src/connect.js
 ```
 
-4. 定义模式和模型（[查看源代码](./src/movie-model.js)）
+### 3.4. 定义模式和模型
 
-5. 插入文档（[查看源代码](./src/insert.js) | [查看源代码](./src/insert2.js) | [查看源代码](./src/insert-many.js)）
+[查看源代码](./src/movie-model.js)
+
+### 3.5. 插入文档
+
+插入一个文档（[查看源代码](./src/insert.js)）：
 
 ```sh
-# 插入一个文档
 node src/insert.js
-# 插入一个文档（方法 2）
+```
+
+插入一个文档方法二（[查看源代码](./src/insert2.js)）：
+
+```sh
 node src/insert2.js
-# 插入多个文档
+```
+
+插入多个文档（[查看源代码](./src/insert-many.js)）：
+
+```sh
 node src/insert-many.js
 ```
 
-1. 查找文档（[查看源代码](./src/find-one.js) | [查看源代码](./src/find.js)）
+### 3.6. 查找文档
+
+查找一个文档（[查看源代码](./src/find-one.js)）：
 
 ```sh
-# 查找一个文档
 node src/find-one.js
-# 查找多个文档（按条件筛选、指定字段）
+```
+
+查找多个文档，并按条件筛选、指定字段（[查看源代码](./src/find.js)）：
+
+```sh
 node src/find.js
 ```
