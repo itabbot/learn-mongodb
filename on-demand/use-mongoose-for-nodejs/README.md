@@ -29,3 +29,9 @@ docker run --name mongo -d -p 27017:27017 mongodb/mongodb-community-server:lates
 npm i
 ```
 
+3. 连接 MongoDB（[查看源代码](./src/connect.js)）
+
+```sh
+node src/connect.js
+```
+
