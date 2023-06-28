@@ -99,4 +99,10 @@ node src/aggregate.js
 node src/update-one.js
 ```
 
+更新多个文档（[查看源代码](./src/update-many.js)）：
+
+```sh
+node src/update-many.js
+```
+
 ### 3.8. 删除文档

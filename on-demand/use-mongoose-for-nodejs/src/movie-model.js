@@ -16,5 +16,6 @@ module.exports = model(
       nominations: Number,
     },
     directors: [String],
+    status: String,
   })
 );
