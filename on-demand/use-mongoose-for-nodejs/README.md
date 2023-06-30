@@ -27,7 +27,7 @@ Mongoose 是一个在 Node.js 环境中运行的、基于 MongoDB 官方驱动�
 
 ## 3. 背景
 
-MongoDB 已经提供了官方的 Node.js 驱动程序，但它需要编写大量的原生 MongoDB 查询和更新语句，对于开发者来说不够灵活且易于出错。于是在 MongoDB 公司负责开发和维护 MongoDB 的 Node.js 驱动程序的软件工程师 Aaron Heckmann 创建了 Mongoose，目标是让开发者更加轻松和高效地在 Node.js 应用程序中使用 MongoDB 数据库。
+MongoDB 已经提供了官方的 Node.js 驱动程序，但它需要编写大量的原生 MongoDB 操作语句，对于开发者来说不够灵活且易于出错。于是在 MongoDB 公司负责开发和维护 MongoDB 的 Node.js 驱动程序的软件工程师 Aaron Heckmann 创建了 Mongoose，目标是让开发者更加轻松和高效地在 Node.js 应用程序中使用 MongoDB 数据库。
 
 ## 4. 应用场景
 
